@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Likes</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Network</h1>
+        </div>
+        <div class="header-title">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="main">
+            <div class="left-side">
+                <div>
+                    <img src="user-circle.png" alt="user-icon">
+                </div>
+                <div>
+                    <h3><a href="#"><u>Add an avatar</u></a></h3>
+                </div>
+                <div>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="card"> <!-- First row-->
+                    <div class="upper-part">
+                        <h2>Neil M</h2>
+                        <h3><span id="like1">0</span> like(s)</h3>
+                        <button class="btn" onclick="addLike(1)">Like</button>
+                    </div>
+                    <div class="lower-part">
+                        <h3>I just set uo this new discord bot, let me know what you all think. <a href="#"><u>link</u></a></h3>
+                    </div>
+                </div>
+                <div class="card"> <!-- Second row-->
+                    <div class="upper-part">
+                        <h2>Nichole K</h2>
+                        <h3><span id="like2">0</span> like(s)</h3>
+                        <button class="btn" onclick="addLike(2)">Like</button>
+                    </div>
+                    <div class="lower-part">
+                        <h3>Just finished my <a href="#"><u>next commic</u></a>, check it out</h3>
+                    </div>
+                </div>
+                <div class="card"> <!-- Third row-->
+                    <div class="upper-part">
+                        <h2>Jim R</h2>
+                        <h3><span id="like3">0</span> like(s)</h3>
+                        <button class="btn" onclick="addLike(3)">Like</button>
+                    </div>
+                    <div class="lower-part">
+                        <h3>I can't stop listening to the <a href="#"><u>new album</u></a>. who else is liking it?</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
